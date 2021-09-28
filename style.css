@@ -1,0 +1,16 @@
+body {
+    background-color: cyan;
+  }
+  h1 {
+    color: lemonchiffon;
+    font-size: 50px;
+    font-style: italic;
+  }
+  
+  .fontColors {
+    color: #fff;
+  }
+  
+  .imageSize {
+    width: 500px;
+  }
