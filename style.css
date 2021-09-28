@@ -1,16 +1,51 @@
 body {
-    background-color: cyan;
+    background-color: teal;
   }
-  h1 {
-    color: lemonchiffon;
-    font-size: 50px;
-    font-style: italic;
-  }
-  
+    
   .fontColors {
     color: #fff;
   }
   
   .imageSize {
     width: 500px;
+  }
+  .red-text {
+    color: red;
+    font: italic;
+  }
+  h1 {
+    font-family: Lobster;
+    position: relative;
+    top: 30px;
+    text-align: right;
+  }
+  h2{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top:0%;
+    width:100%;
+  }
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: black;
+  }
+  .active {
+    background-color: #04AA6D;
   }
